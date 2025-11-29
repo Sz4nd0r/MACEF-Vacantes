@@ -1,0 +1,166 @@
+{
+    "jobs": [
+        {
+            "id": 1,
+            "title": "Auxiliar Contable",
+            "location": "Santo Domingo, República Dominicana",
+            "type": "Tiempo completo",
+            "modality": "Presencial",
+            "salary": "RD$ 35,000 - RD$ 45,000",
+            "postedAt": "2025-01-15",
+            "tags": [
+                "Contabilidad",
+                "Registros",
+                "Ofimática"
+            ],
+            "description": "Buscamos un Auxiliar Contable responsable de registrar, clasificar y analizar transacciones financieras bajo estándares contables vigentes.",
+            "responsibilities": [
+                "Registrar facturas de proveedores.",
+                "Manejar conciliaciones bancarias.",
+                "Apoyar en cierres mensuales.",
+                "Mantener archivos contables organizados."
+            ],
+            "requirements": [
+                "Estudiante o graduado en Contabilidad.",
+                "Experiencia en conciliación bancaria.",
+                "Dominio de Excel.",
+                "Organización y atención al detalle."
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Supervisor Administrativo",
+            "location": "Distrito Nacional",
+            "type": "Tiempo completo",
+            "modality": "Híbrido",
+            "salary": "RD$ 50,000 - RD$ 65,000",
+            "postedAt": "2025-01-18",
+            "tags": [
+                "Supervisión",
+                "Administración",
+                "Gestión"
+            ],
+            "description": "Se requiere Supervisor Administrativo para coordinar procesos internos, supervisar personal y asegurar el cumplimiento de políticas organizacionales.",
+            "responsibilities": [
+                "Supervisar actividades administrativas.",
+                "Coordinar equipos y tareas diarias.",
+                "Preparar reportes operativos.",
+                "Velar por el cumplimiento de normas internas."
+            ],
+            "requirements": [
+                "Licenciatura en Administración o áreas afines.",
+                "Experiencia supervisando personal.",
+                "Liderazgo y toma de decisiones.",
+                "Dominio de herramientas de oficina."
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Asistente de Recursos Humanos",
+            "location": "Remoto",
+            "type": "Medio tiempo",
+            "modality": "Remoto",
+            "salary": "RD$ 28,000 - RD$ 38,000",
+            "postedAt": "2025-01-10",
+            "tags": [
+                "Recursos Humanos",
+                "Reclutamiento",
+                "Administración"
+            ],
+            "description": "Asistente de Recursos Humanos para apoyar procesos de reclutamiento, administración de personal y documentación.",
+            "responsibilities": [
+                "Publicar vacantes y filtrar candidatos.",
+                "Coordinar entrevistas.",
+                "Actualización de expedientes de empleados.",
+                "Apoyo en actividades internas de RRHH."
+            ],
+            "requirements": [
+                "Estudios en Psicología Industrial o RRHH.",
+                "Buenas habilidades de comunicación.",
+                "Organización y capacidad multitarea.",
+                "Experiencia en reclutamiento (preferible)."
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Recepcionista Administrativa",
+            "location": "Santo Domingo Este",
+            "type": "Tiempo completo",
+            "modality": "Presencial",
+            "salary": "RD$ 25,000 - RD$ 32,000",
+            "postedAt": "2025-01-14",
+            "tags": [
+                "Atención al cliente",
+                "Administración",
+                "Recepción"
+            ],
+            "description": "Persona responsable de recibir visitantes, gestionar llamadas, y apoyar tareas administrativas básicas.",
+            "responsibilities": [
+                "Gestionar central telefónica.",
+                "Recibir clientes y proveedores.",
+                "Administrar correspondencia.",
+                "Apoyo administrativo general."
+            ],
+            "requirements": [
+                "Bachiller o estudiante universitario.",
+                "Buena presencia y comunicación.",
+                "Manejo de Word y Excel.",
+                "Actitud proactiva."
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Encargado de Compras",
+            "location": "Distrito Nacional",
+            "type": "Tiempo completo",
+            "modality": "Presencial",
+            "salary": "RD$ 55,000 - RD$ 70,000",
+            "postedAt": "2025-01-19",
+            "tags": [
+                "Compras",
+                "Negociación",
+                "Administración"
+            ],
+            "description": "Responsable de gestionar proveedores, negociar precios y asegurar la disponibilidad de productos según las necesidades operativas.",
+            "responsibilities": [
+                "Negociar con proveedores.",
+                "Evaluar cotizaciones.",
+                "Mantener inventarios óptimos.",
+                "Preparar órdenes de compra."
+            ],
+            "requirements": [
+                "Experiencia en compras o logística.",
+                "Habilidades de negociación.",
+                "Organización y responsabilidad.",
+                "Manejo de sistemas administrativos."
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Auxiliar Contable",
+            "location": "Santo Domingo, República Dominicana",
+            "type": "Tiempo completo",
+            "modality": "Remoto",
+            "salary": "RD$ 35,000 - RD$ 45,000",
+            "postedAt": "2025-01-15",
+            "tags": [
+                "Contabilidad",
+                "Registros",
+                "Ofimática"
+            ],
+            "description": "Buscamos un Auxiliar Contable responsable de registrar, clasificar y analizar transacciones financieras bajo estándares contables vigentes.",
+            "responsibilities": [
+                "Registrar facturas de proveedores.",
+                "Manejar conciliaciones bancarias.",
+                "Apoyar en cierres mensuales.",
+                "Mantener archivos contables organizados."
+            ],
+            "requirements": [
+                "Estudiante o graduado en Contabilidad.",
+                "Experiencia en conciliación bancaria.",
+                "Dominio de Excel.",
+                "Organización y atención al detalle."
+            ]
+        }
+    ]
+}

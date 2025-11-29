@@ -1,0 +1,19 @@
+--To Do--
+| Open Graph for sharing ✅
+| Add micro-interaction 
+| Fine tune the hero design
+| Whatsapp me link ✅
+| Fix problem scrolling background on opened modal --
+| Use variables for font-size 
+| Search functionality 
+
+--- Client continuie check ---
+}Funcionalidad de envío  -- Por ahora solo en fron-end
+
+}} Cuantos trabajos pueden llegarse a publicar como maximo?
+}} Estilo, diseño y contenido del info de la empresa 
+
+]} Search deployment options | domain | hosting 
+
+--Very next step--
+|   Create the backend
