@@ -161,6 +161,33 @@
                 "Dominio de Excel.",
                 "Organización y atención al detalle."
             ]
+        },
+        {
+            "id": 7,
+            "title": "Job title",
+            "location": "Location",
+            "type": "Labor day type",
+            "modality": "modality",
+            "salary": "RD$ Salary - RD$ Range",
+            "postedAt": "2025-01-15",
+            "tags": [
+                "tag-duties",
+                "tag-area",
+                "tag-tools"
+            ],
+            "description": "Description Description Description Description Description Description Description Description Description Description Description.",
+            "responsibilities": [
+                "Responsibility 1.",
+                "Responsibility 2 duties.",
+                "Responsibility 3.",
+                "Responsibility 4 required."
+            ],
+            "requirements": [
+                "Requeriment 1.",
+                "Requeriment 2 required.",
+                "Requeriment 3.",
+                "Requeriment 4."
+            ]
         }
     ]
 }

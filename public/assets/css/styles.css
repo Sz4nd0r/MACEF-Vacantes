@@ -138,6 +138,10 @@ h3 {
     align-items: center;
 }
 
+nav {
+    text-align: center;
+}
+
 nav a {
     appearance: none;
     display: inline-block;
@@ -146,7 +150,6 @@ nav a {
     font-style: italic;
     text-align: center;
     padding: 5px var(--space-2);
-    margin: 0;
     text-decoration: none;
     transition: all 0.25s ease;
     margin: 0 8px;
@@ -170,8 +173,8 @@ nav :is(a:hover, a:active) {
 }
 
 #vacante-title {
-    color: var(--text);
-    font-size: var(--size-heading);
+    color: var(--primary-dark);
+    font-size: var(--size-title);
     text-align: center;
 }
 
@@ -182,12 +185,13 @@ nav :is(a:hover, a:active) {
     }
 
     :root {
-        --size-heading: 1.75;
+        --size-title: 1.75rem;
     }
 
     .hero__container {
-        height: 553px;
+        min-height: 553px;
     }
+
 }
 
 @media(max-width: 500px) {
@@ -197,9 +201,9 @@ nav :is(a:hover, a:active) {
     }
 
     #vacante-title {
-        font-size: 1.3rem;
+        font-size: var(--size-heading);
         text-align: left;
-        padding-right: var(--space-1);
+        padding-right: 0;
     }
 
 }
@@ -437,11 +441,15 @@ nav :is(a:hover, a:active) {
 }
 
 
-:is(input[type="text"], input[type="email"]) {
+.vacante__form label input {
     width: 95%;
     height: var(--space-4);
     border-radius: calc(var(--radius) - 3px);
     margin: auto;
+}
+
+.vacante__form input[type="number"] {
+    width: 30%;
 }
 
 label {
@@ -471,11 +479,6 @@ label {
     color: var(--text);
     padding: var(--space-2);
     border-radius: var(--radius);
-}
-
-#vacante-title {
-    font-size: var(--size-title);
-    color: var(--primary-dark);
 }
 
 /*----------------FOOTER----------------*/
