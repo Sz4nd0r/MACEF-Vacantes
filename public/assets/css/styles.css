@@ -73,7 +73,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-color: var(--primary);
+    background-color: var(--secondary-dark);
     z-index: -90;
     position: relative;
 }
@@ -83,7 +83,7 @@ h3 {
     width: 1600px;
     object-fit: cover;
     object-position: center;
-    filter: opacity(0.5);
+    filter: opacity(0.45);
     z-index: -90;
     transform: scale(1.1);
 }
@@ -93,8 +93,14 @@ h3 {
     font-size: calc(4vw + 1rem);
     color: var(--white);
     position: absolute;
-    letter-spacing: -1.9px;
+    letter-spacing: -0.8px;
     line-height: 120%;
+    font-weight: 550;
+}
+
+.brand-text span {
+    color: var(--border);
+    font-style: italic;
 }
 
 #company-name {
@@ -109,13 +115,39 @@ h3 {
 }
 
 .brand-text {
-    top: 30%;
+    top: 23%;
     left: 20px;
-    border-left: 5px solid Var(--primary-dark);
-    box-shadow: -8px 0 5px rgba(0, 0, 0, 0.1);
     text-shadow: 3px 2px 5px var(--primary-dark);
-    border-radius: var(--radius);
+    padding: 5px;
 }
+
+.join-us {
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 180px;
+    padding: var(--space-3);
+    font-size: var(--size-heading);
+    color: var(--border);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    background-color: var(--primary);
+    border-radius: 40px;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+button.join-us:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+
 
 .container__content {
     font-size: var(--size-text);
@@ -163,8 +195,8 @@ nav :is(a:hover, a:active) {
 
 .logo {
     display: inline-block;
-    width: 120px;
-    height: 75px;
+    width: 152px;
+    height: 95px;
     cursor: pointer;
     margin-inline: min(2vw, 20px);
     object-fit: cover;
