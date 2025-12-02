@@ -137,7 +137,7 @@ h3 {
     justify-content: center;
     gap: var(--space-2);
     background-color: var(--primary);
-    border-radius: 40px;
+    border-radius: var(--radius);
     border: none;
     transition: all 0.2s ease;
 }
@@ -193,6 +193,12 @@ nav :is(a:hover, a:active) {
     background-color: rgba(72, 144, 206, 0.7);
 }
 
+@media(max-width: 750px) {
+    nav a>p {
+        display: none;
+    }
+}
+
 .logo {
     display: inline-block;
     width: 152px;
@@ -237,6 +243,7 @@ nav :is(a:hover, a:active) {
         text-align: left;
         padding-right: 0;
     }
+
 
 }
 
@@ -306,13 +313,9 @@ nav :is(a:hover, a:active) {
 }
 
 
-@media (max-width: 800px) {
-    .about__section {
-        overflow-x: scroll;
-    }
-
+@media (max-width: 700px) {
     .about {
-        background: linear-gradient(to bottom, var(--light-sky)20%, rgba(0, 0, 0, 0)20%);
+        background: var(--light-sky);
     }
 }
 
