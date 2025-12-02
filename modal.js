@@ -4,7 +4,7 @@ const closeModal = document.getElementById("close-modal");
 async function cargarVacante(vacanteId) {
 
     // 2. Obtener lista de vacantes desde la API
-    const respuesta = await fetch("/api/jobs");
+    const respuesta = await fetch("jobs.json");
     const data = await respuesta.json();
 
     const vacantes = data.jobs;

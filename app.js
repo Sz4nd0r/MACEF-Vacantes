@@ -3,7 +3,15 @@
 // ==========================
 async function cargarVacantes() {
     try {
-        const respuesta = await fetch("/api/jobs");
+        // Use an absolute path for reliability on GitHub Pages:
+        const respuesta = await fetch('jobs.json');
+
+        if (!respuesta.ok) {
+            // Throw an error if the status is not OK (e.g., 404 Not Found)
+            // This stops the 'try' block and sends execution to the 'catch' block
+            throw new Error(`HTTP error! status: ${respuesta.status}`);
+        }
+
         const data = await respuesta.json();
         const jobs = data.jobs;
 
@@ -11,12 +19,11 @@ async function cargarVacantes() {
 
     } catch (error) {
         console.error("Error cargando jobs.json:", error);
+        // Display the user-friendly fallback message here in the catch block
+        document.getElementById('jobs-container').innerHTML = "<p>No hay vacantes abiertas o ha ocurrido un error de carga.<p>";
     }
 }
 
-// ==========================
-// Renderizar tarjetas en Home
-// ==========================
 function renderizarTarjetas(jobs) {
     const contenedor = document.getElementById("jobs-container");
     if (!contenedor) return;
@@ -57,5 +64,4 @@ function irAVacante(id) {
     window.location.href = `vacante.html?id=${id}`;
 }
 
-// Cargar cuando el home abra
 cargarVacantes();
