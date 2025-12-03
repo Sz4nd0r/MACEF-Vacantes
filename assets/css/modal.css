@@ -78,12 +78,27 @@
     cursor: pointer;
 }
 
+@media screen and (prefers-color-scheme: dark) {
+    :root {
+        --primary: #9fbee6 !important;
+        --primary-dark: #d7dfef !important;
+        --clear-primary: #163d70 !important;
+        --light-blue: #144aa1 !important;
+        --light-sky: #0d6794 !important;
+        --white: #393939 !important;
+        --text: #e2e2e2 !important;
+        --text-light: #e4e4e4 !important;
+        --secondary: #ced4d8 !important;
+        --secondary-light: #696b6b !important;
+        --secondary-dark: #e8eaeb !important;
+        --border: #6e6e6e !important;
+        --bg-light: #14315d !important;
 
+        --light-blue-semitransparent: #144aa1a8 !important;
+        --clear-primary-semitransparent: #163d70a8 !important;
 
-/*   Todavia sin uso
-@media (max-width: 600px) {
-    .modal-content {
-        flex-direction: column; 
+        --shadow: 0 4px 15px rgba(200, 200, 200, 0.08) !important;
+        --dark-shadow: rgba(200, 200, 200, 0.12) !important;
     }
+
 }
-*/
