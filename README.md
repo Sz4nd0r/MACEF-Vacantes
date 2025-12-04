@@ -8,4 +8,4 @@ Por el momento, este proyecto solo se encuentra con el front desarrollado y lo m
 ## *Estado* 
 * HTML CSS y JS vanila para el front
 * nodeJS y express para el back. 
-* V1.0 front 90% compleo
+* V1.0 front
