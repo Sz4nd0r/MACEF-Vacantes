@@ -42,6 +42,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -70%);
+    /*20% mas hacia arriba debido a la barra de navegación en dispositivos móbiles*/
     background-color: white;
     padding: 20px;
     border-radius: 8px;
@@ -77,13 +78,3 @@
     border-radius: var(--radius);
     cursor: pointer;
 }
-
-
-
-/*   Todavia sin uso
-@media (max-width: 600px) {
-    .modal-content {
-        flex-direction: column; 
-    }
-}
-*/

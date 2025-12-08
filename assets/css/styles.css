@@ -2,7 +2,7 @@
     --primary: #1A73E8;
     --primary-dark: #0F4BB8;
     --clear-primary: #5591e0;
-    --light-blue: #E8F1FF;
+    --light-blue: #b9c8df;
     --light-sky: #ceedfd;
     --white: #FFFFFF;
     --text: #1F1F1F;
@@ -320,6 +320,13 @@ nav :is(a:hover, a:active) {
 }
 
 /* ---------- Layout grid para las tarjetas ---------- */
+.section-title {
+    text-align: center;
+    background-color: var(--light-blue);
+    color: var(--text);
+    padding: var(--space-2);
+}
+
 .jobs-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -328,7 +335,7 @@ nav :is(a:hover, a:active) {
 }
 
 /* ---------- Tarjeta de vacante ---------- */
-#vacantes__list {
+#jobs-container {
     padding: var(--space-3) var(--space-6);
 }
 
@@ -506,14 +513,6 @@ label {
 
 .vacante-detalle p {
     line-height: 24px;
-}
-
-.section-title {
-    display: inline-block;
-    background-color: var(--light-blue);
-    color: var(--text);
-    padding: var(--space-2);
-    border-radius: var(--radius);
 }
 
 /*----------------FOOTER----------------*/

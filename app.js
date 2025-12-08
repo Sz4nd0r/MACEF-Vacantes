@@ -20,7 +20,7 @@ async function cargarVacantes() {
     } catch (error) {
         console.error("Error cargando jobs.json:", error);
         // Display the user-friendly fallback message here in the catch block
-        document.getElementById('jobs-container').innerHTML = "<p>No hay vacantes abiertas o ha ocurrido un error de carga.<p>";
+        document.getElementById('jobs-container').innerHTML = "<p>No hay vacantes abiertas.<p>";
     }
 }
 
