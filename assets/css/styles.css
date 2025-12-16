@@ -3,7 +3,7 @@
     --primary-dark: #0F4BB8;
     --clear-primary: #5591e0;
     --light-blue: #b9c8df;
-    --light-sky: #ceedfd;
+    --light-sky: #b6cdeb;
     --white: #FFFFFF;
     --text: #1F1F1F;
     --text-light: #5A5A5A;
@@ -119,7 +119,22 @@ h3 {
     left: 20px;
     text-shadow: 3px 2px 5px var(--primary-dark);
     padding: 5px;
+    animation: unhid-x 1.4s ease-out 0s 1 forwards;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+    @keyframes unhid-x {
+        0% {
+            transform: translateX(-1000px);
+        }
+
+        100% {
+            transform: translate(0px);
+        }
+    }
+}
+
+
 
 .join-us {
     position: absolute;
@@ -140,11 +155,23 @@ h3 {
     border-radius: var(--radius);
     border: none;
     transition: all 0.2s ease;
+    animation: popout 1.5s ease-out 0s 1 forwards;
+}
+
+@keyframes popout {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 button.join-us:hover {
     transform: scale(1.08);
     cursor: pointer;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.22);
 }
 
 
@@ -162,6 +189,19 @@ button.join-us:hover {
     position: fixed;
     z-index: 90;
     overflow: hidden;
+    height: 94px;
+    animation: unhid-y 1.5s ease-out 0s 1 forwards;
+}
+
+@keyframes unhid-y {
+    0% {
+        transform: translateY(-150px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+
 }
 
 .container__header {
@@ -189,7 +229,7 @@ nav a {
 }
 
 nav :is(a:hover, a:active) {
-    transform: scale(1.1);
+    transform: scale(1.05);
     background-color: rgba(72, 144, 206, 0.7);
 }
 
@@ -280,9 +320,29 @@ nav :is(a:hover, a:active) {
     width: min(70vw, 700px);
     min-width: 300px;
     text-align: left;
-    border-bottom: 2px solid var(--primary);
     border-radius: 4px;
     padding: var(--space-4) var(--space-1);
+    overflow: hidden;
+
+    p.text {
+        border-left: 3px solid var(--primary);
+        padding: 10px 5px 10px 10px;
+        margin: 10px 0px;
+        width: 80%;
+        margin: 10px auto;
+        animation: hide-show-text 2.8s ease-out 1 forwards;
+    }
+}
+
+
+@keyframes hide-show-text {
+    0% {
+        transform: translateX(200%);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
 }
 
 .about__section {
